@@ -210,7 +210,7 @@ public class GameManager : MonoBehaviour {
         }
         totalWheatText.text = totalWheat.ToString();
         totalWarriorsText.text = totalWarriors.ToString();
-        totalEnemiesText.text = (totalEnemiesDefeated - nextRaid).ToString();
+        totalEnemiesText.text = (totalWarriors - warriorCount).ToString();
     }
 
     public void AddVillager() {
